@@ -10,7 +10,7 @@ end
 
 ModelVisualizer:printWelcome()
 
-model = Model
+model = Model:new()
 model:init()
 model:dump()
 promt = io.read()
